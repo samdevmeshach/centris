@@ -1,0 +1,43 @@
+.blog-col{
+    float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.blog-row:after {
+    content: "";
+  display: table;
+  clear: both;
+}
+.card{
+  margin-bottom: 20px;
+}
+.blog-btn{
+    margin-top: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+@media (max-width:900px){
+    .blog-col{
+        width: 33.33%;
+    }
+    .card4{
+        display: none;
+    }
+}
+@media (max-width:750px){
+    .blog-col{
+        width: 50%;
+    }
+    .card3{
+        display: none;
+    }
+}
+@media (max-width:600px){
+    .blog-col{
+        width: 100%;
+    }
+    .card2{
+        display: none;
+    }
+}
