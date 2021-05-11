@@ -2,8 +2,9 @@ import NavBar from './layout/NavBar'
 import Main from './components/Main'
 import Blog from './components/Blog'
 import Section from './components/Section'
-import Footer from './layout/Footer'
 import DiscoverCentris from './components/DiscoverCentris'
+import WorkWithBroker from './components/WorkWithBroker'
+import Footer from './layout/Footer'
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
       <Blog />
       <Section />
       <DiscoverCentris />
+      <WorkWithBroker />
       <Footer />
     </div>
   );
