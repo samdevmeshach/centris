@@ -10,6 +10,10 @@
 }
 .card{
   margin-bottom: 20px;
+  min-height: 450px;
+}
+.card-body1{
+    margin: 20px;
 }
 .blog-btn{
     margin-top: 20px;
@@ -40,4 +44,8 @@
     .card2{
         display: none;
     }
+}
+.card:hover{
+    box-shadow: 0 0 10px skyblue;
+    cursor: pointer;
 }

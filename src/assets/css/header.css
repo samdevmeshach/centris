@@ -1,0 +1,22 @@
+.header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 30vh;
+}
+.header h1{
+    color: white;
+}
+.header div{
+    position: relative;
+    top: 30%;
+    left: 5%;
+}
+.header button{
+    border-radius: 50%;
+}
+@media (max-width:550px){
+    .header{
+        height: 45vh;
+    }
+}
