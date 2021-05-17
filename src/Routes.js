@@ -10,6 +10,8 @@ import StepInvolveInSelling from './pages/StepInvolveInSelling'
 import RiskOfSellingWithoutBroker from './pages/RiskOfSellingWithoutBroker'
 import TeamingUpWithBroker from './pages/TeamingUpWithBroker'
 import GoodBroker from './pages/GoodBroker'
+import ClientSaying from './pages/ClientSaying'
+import BecomeBroker from './pages/BecomeBroker'
 import Footer from './layout/Footer'
 
 const Routes = () => {
@@ -26,6 +28,8 @@ const Routes = () => {
                 <Route path="/riskofsellingwithoutbroker" exact component={RiskOfSellingWithoutBroker} />
                 <Route path="/teamingupwithbroker" exact component={TeamingUpWithBroker} />
                 <Route path="/goodbroker" exact component={GoodBroker} />
+                <Route path="/clientsaying" exact component={ClientSaying} />
+                <Route path="/becomebroker" exact component={BecomeBroker} />
             </Switch>
             <Footer />
         </BrowserRouter>

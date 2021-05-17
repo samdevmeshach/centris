@@ -72,11 +72,15 @@ const NavBar = ({history}) => {
                                     <Link className="nav-item"to="/teamingupwithbroker">
                                         Teaming up with a broker
                                     </Link>
-                                    <Link className="nav-item"to="/GoodBroker">
+                                    <Link className="nav-item"to="/goodbroker">
                                         The 10 qualites of good broker
                                     </Link>
-                                    <a className="nav-link" href="">What client are saying</a>
-                                    <a className="nav-link" href="">Become a broker</a>
+                                    <Link className="nav-item"to="/clientsaying">
+                                        What client are saying
+                                    </Link>
+                                    <Link className="nav-item"to="/BecomeBroker">
+                                        Become a broker
+                                    </Link>
                                 </div>
                             </li>
                             <li className="nav-item dropdown">

@@ -1,3 +1,8 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 .main{
     background-image: url("https://cdn.centris.ca/public/qc/consumersite/images/Search_bg/Residentiel_Condo_2_Tablet.jpg");
     height: 70vh;
@@ -162,4 +167,33 @@ li{
       border: 1px solid rgba(0, 0, 0, 0.171);
       font-size: 15px;
       width: 100%;
+  }
+  .content-bg{
+      background-color: rgba(128, 128, 128, 0.164);
+      padding: 10px;
+  }
+  .content-bg hr{
+      width: 100%;
+  }
+  .content-bg div{
+      margin: 20px 20px;
+      background-color: white;
+      padding: 40px 20px;
+  }
+  .content-bg p{
+      padding-top: 30px;
+      margin-bottom: 5%;
+  }
+  .content-bg h6{
+      padding-top: 30px;
+      margin-top: 10px;
+  }
+  .img-right{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+  .img-right img{
+      width: 100%;
+      height: auto;
   }
