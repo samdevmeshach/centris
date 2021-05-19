@@ -12,6 +12,10 @@ import TeamingUpWithBroker from './pages/TeamingUpWithBroker'
 import GoodBroker from './pages/GoodBroker'
 import ClientSaying from './pages/ClientSaying'
 import BecomeBroker from './pages/BecomeBroker'
+import Calculator from './pages/Calculator'
+import CommunityProfile from './pages/CommunityProfile'
+import UsefulLinks from './pages/UsefulLinks'
+import Statistics from './pages/Statistics'
 import Footer from './layout/Footer'
 
 const Routes = () => {
@@ -30,6 +34,10 @@ const Routes = () => {
                 <Route path="/goodbroker" exact component={GoodBroker} />
                 <Route path="/clientsaying" exact component={ClientSaying} />
                 <Route path="/becomebroker" exact component={BecomeBroker} />
+                <Route path="/calculator" exact component={Calculator} />
+                <Route path="/communityprofile" exact component={CommunityProfile} />
+                <Route path="/usefullinks" exact component={UsefulLinks} />
+                <Route path="/statistics" exact component={Statistics} />
             </Switch>
             <Footer />
         </BrowserRouter>

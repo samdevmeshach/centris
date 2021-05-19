@@ -86,11 +86,19 @@ const NavBar = ({history}) => {
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropbtn" href="">Tools</a>
                                 <div className="dropdown-content">
-                                    <a className="nav-link" href="">Community profile</a>
-                                    <a className="nav-link" href="">Real estate statistics</a>
-                                    <a className="nav-link" href="">Useful links</a>
+                                    <Link className="nav-item" to="/communityprofile">
+                                        Community profile
+                                    </Link>
+                                    <Link className="nav-item" to="/statistics">
+                                        Real estate statistics
+                                    </Link>
+                                    <Link className="nav-item" to="/usefullinks">
+                                        Useful links
+                                    </Link>
                                     <a className="nav-link" href="">Real estate blogs</a>
-                                    <a className="nav-link" href="">Calculator</a>
+                                    <Link className="nav-item" to="/calculator">
+                                        Calculator
+                                    </Link>
                                 </div>
                             </li>
                             <li className="nav-item">
